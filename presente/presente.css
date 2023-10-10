@@ -1,0 +1,47 @@
+body{
+    background-color: #1B1F27;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#escolha{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: #0e0e13;
+    padding: 50px;
+    border-radius: 20px;
+    width: 50%;
+}
+
+#cafe p, #fast p, #cine p{
+    background-color: #04106e;
+    padding: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
+
+#cafe p:hover, #fast p:hover, #cine p:hover{
+    background-color: #3b4abe;
+}

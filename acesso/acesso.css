@@ -1,0 +1,81 @@
+body{
+    background-color: #22262c;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    user-select: none;
+    overflow: hidden;
+}
+
+.container-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login{
+    background-color: #0e0e13;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+#profile{
+    text-align: center;
+}
+
+#profile img{
+    width: 200px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#sucesso, #preencha, #negado{
+    display: none;
+    text-align: center;
+}
+
+input{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #252A34;
+    border: none;
+    height: 45px;
+    border-radius: 8px;
+    color: #CBD0F7;
+    padding-left: 2%;
+}
+
+input:focus{
+    outline: 2px solid #CBD0F7;
+}
+
+input::placeholder{
+    color: #CBD0F7;
+}
+
+form [type="submit"]{
+    display: block;
+    background-color: #5568FE;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+form [type="submit"]:hover{
+    background-color: #3b4abe;
+}
+
+p{
+    color: #CBD0F7;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #5568FE;
+}
