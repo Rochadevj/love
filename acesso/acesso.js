@@ -21,13 +21,13 @@ function send() {
         sucesso.style.display = 'inline';
 
         setTimeout(() => {
-            location.href = "http://127.0.0.1:5500/home/home.html";
+            location.href = "home/home.html";
         }, 500);
     } else {
         negado.style.display = 'inline';
 
         setTimeout(() => {
-            location.href = "http://127.0.0.1:5500/error/erro.html";
+            location.href = "error/erro.html";
         }, 500);
     }
 }
