@@ -16,11 +16,12 @@ a{
 }
 
 #container{
-    display: flex;
+     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
     height: 100vh;
+    width: 100%;
 }
 
 #texto{
@@ -28,3 +29,9 @@ a{
     padding: 50px;
     border-radius: 20px;
 }
+@media screen and (max-width: 76px8 ){
+    .container{
+        width:100%;
+        flex-direction: column;
+    }
+    }
